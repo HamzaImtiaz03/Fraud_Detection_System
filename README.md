@@ -136,13 +136,13 @@ Ensure the following tools are installed:
 ### 🟢 Running the Web App
 
 ```bash
-streamlit run fraud_detection.py
-```
+streamlit run web_app.py
+``
 
 * Open the URL provided in the terminal (usually `http://localhost:8501`)
 * Fill in transaction details:
 
-  * **Transaction Type:** PAYMENT, TRANSFER, CASH\_OUT, DEPOSIT
+  * **Transaction Type:** PAYMENT, TRANSFER, CASH_OUT, DEPOSIT
   * **Transaction Amount**
   * **Sender & Receiver Balances**
 * Click **Predict** to get fraud analysis.
@@ -155,7 +155,7 @@ streamlit run fraud_detection.py
 jupyter notebook
 ```
 
-* Open `analysis_model.ipynb`
+* Open `EDA_and_Model_Trainer.ipynb`
 * Explore data, visualize patterns, or retrain the model
 
 ---
@@ -175,9 +175,8 @@ Listed in `requirements.txt`:
 
 ## 📝 Notes
 
-* **Model Compatibility**: Ensure any retrained model aligns with the features expected by `fraud_detection.py`.
-* **Extensibility**: `main.py` can be expanded for batch predictions or CLI integration.
-* **Customization**: Modify `analysis_model.ipynb` to fine-tune model features or add new metrics.
+* **Model Compatibility**: Ensure any retrained model aligns with the features expected by `web_app.py`.
+* **Customization**: Modify `EDA_and_Model_Trainer.ipynb` to fine-tune model features or add new metrics.
 
 ---
 
