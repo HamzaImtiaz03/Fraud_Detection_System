@@ -1,0 +1,19 @@
+[project]
+name = "fraud-detection-system"
+author = "Hamza Imtiaz"
+email = "hamzaimtiaz8668@gmail.comm"
+version = "0.1.0"
+description = "A real-time, machine learning-powered web application to identify fraudulent financial transactions.
+Built with Python, Streamlit, and scikit-learn, this solution delivers instant fraud predictions through an intuitive user interface.
+"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.0",
+    "pandas>=2.3.0",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+    "streamlit>=1.45.1",
+]
