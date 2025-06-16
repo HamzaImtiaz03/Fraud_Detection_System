@@ -119,7 +119,7 @@ Ensure the following tools are installed:
 4. **Install Dependencies**
 
    ```bash
-   uv pip install -r requirements.txt
+   uv add -r requirements.txt
    ```
 
 5. **(Optional) Install Jupyter Kernel**
