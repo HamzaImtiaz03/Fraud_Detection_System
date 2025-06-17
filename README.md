@@ -46,7 +46,7 @@ fraud-detection-system/
 
 This dataset is the foundation for training and evaluating the machine learning model. It contains synthetic but realistic financial transaction records. Below are the key details:
 
-* **Total Records:** \~600,000 transactions
+* **Total Records:** \~6.3 Million transactions
 * **File Name:** `fraud_dataset.csv`
 * **Format:** CSV (Comma-Separated Values)
 
